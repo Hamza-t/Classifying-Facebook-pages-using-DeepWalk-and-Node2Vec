@@ -1,1 +1,3 @@
 # Classifying-Facebook-pages-using-DeepWalk-and-Node2Vec
+## Introduction
+In the previous blog we saw how the graph structure can be used in classification via label propagation. We sort of averaged the label information from the node neighbours which is quite a naive approach (but effective). There is another way to extract the structural information from the graph - node embedding. If you've ever worked with NLP, you'll know what I'm talking about. We want to represent the nodes in the n-dimensional vector form that reflects the structural properties of the graph. Sounds like a mouthful, so let's take a quick look at the example.
